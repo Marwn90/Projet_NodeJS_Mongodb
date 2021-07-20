@@ -1,0 +1,25 @@
+{
+  "name": "projet_nodejs_mongodb_expss",
+  "version": "1.0.0",
+  "description": "Site qui permet aux utilisateurs d'effectué des taches",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "html2pug": "html2pug < html2pug.html > html2pug.pug -f "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html2pug": "^4.0.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.10",
+    "mongoose": "^5.13.3",
+    "pug": "^3.0.2"
+  }
+}
